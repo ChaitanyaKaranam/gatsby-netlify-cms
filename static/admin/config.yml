@@ -1,0 +1,16 @@
+backend:
+  name: test-repo
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - {name: path, label: Path}
+      - {name: date, lavel: Date, widget: date }
+      - {name: title, lavel: Title }
+      - {name: body, lavel: Body, widget: markdown }
