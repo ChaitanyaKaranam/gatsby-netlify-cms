@@ -14,3 +14,7 @@ collections:
       - {name: date, lavel: Date, widget: date }
       - {name: title, lavel: Title }
       - {name: body, lavel: Body, widget: markdown }
+
+backend:
+  name: github
+  repo: chaitanyakaranam/gatsby-netlify-cms
